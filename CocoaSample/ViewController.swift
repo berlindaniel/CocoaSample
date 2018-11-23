@@ -17,21 +17,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        let textFieldFrame = CGRect(x: self.view.center.x, y: self.view.center.y, width: 200, height: 50)
-//        let textField = JiroTextField(frame: textFieldFrame)
-//        textField.placeholderColor = .darkGray
-//        textField.backgroundColor = .lightGray
-//        textField.placeholder = "Username"
-//
-//        let passFieldFrame = CGRect(x: self.view.center.x, y: self.view.center.y + 75, width: 200, height: 50)
-//        let passField = JiroTextField(frame: passFieldFrame)
-//        passField.placeholderColor = .darkGray
-//        passField.backgroundColor = .lightGray
-//        passField.placeholder = "Password"
-//
-//
-//        self.view.addSubview(textField)
-//        self.view.addSubview(passField)
+       let textFieldFrame = CGRect(x: self.view.center.x, y: self.view.center.y, width: 200, height: 50)
+       let textField = JiroTextField(frame: textFieldFrame)
+        textField.placeholderColor = .darkGray
+        textField.backgroundColor = .lightGray
+        textField.placeholder = "Username"
+
+        let passFieldFrame = CGRect(x: self.view.center.x, y: self.view.center.y + 75, width: 200, height: 50)
+        let passField = JiroTextField(frame: passFieldFrame)
+        passField.placeholderColor = .darkGray
+        passField.backgroundColor = .lightGray
+        passField.placeholder = "Password"
+
+        self.view.addSubview(textField)
+        self.view.addSubview(passField)
     }
 
     
